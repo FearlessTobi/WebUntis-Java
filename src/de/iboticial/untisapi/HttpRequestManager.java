@@ -121,7 +121,7 @@ public class HttpRequestManager {
 		if (message == null && code == null) {
 			return false;
 		} else {
-			System.err.println("There was an error: Message: " + message + ", Code: " + code);
+			System.err.println("There was an error: " + message + ", Code: " + code);
 			System.err.println();
 			return true;
 		}
